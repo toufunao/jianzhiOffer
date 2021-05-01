@@ -40,6 +40,5 @@ public class CopyRandomList_35 {
         }
         pre.next=null;
         return res;
-
     }
 }
