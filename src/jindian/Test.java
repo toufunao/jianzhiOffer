@@ -2,12 +2,13 @@ package jindian;
 
 public class Test {
     public static void main(String[] args){
-        TripleInOne_0301 tripleInOne_0301=new TripleInOne_0301(2);
-        tripleInOne_0301.push(0,1);
-        tripleInOne_0301.push(0,2);
-        tripleInOne_0301.push(0,3);
-        tripleInOne_0301.pop(0);
-        tripleInOne_0301.pop(0);
-        tripleInOne_0301.pop(0);
+        MinStack_0302 test=new MinStack_0302();
+        test.push(-2);
+        test.push(0);
+        test.push(-3);
+        test.getMin();
+        test.pop();
+        System.out.println(test.top());
+        System.out.println(test.getMin());
     }
 }
